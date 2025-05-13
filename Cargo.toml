@@ -1,0 +1,10 @@
+[package]
+name = "ach"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+azure_devops_rust_api = { version = "0.28.0", features = ["git"] }
+regex = "1.11.1"
+tokio = "1.45.0"
